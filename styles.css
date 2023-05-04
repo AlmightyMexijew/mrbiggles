@@ -6,4 +6,109 @@
 body{
     background:url('/istockphoto-1256156433-612x612.jpg') no-repeat;
     background-size:cover;
+    display:grid;
+    grid-template-columns:33% 66%;
+}
+#infothird{
+    border:4px solid darkblue;
+    border-radius:2px;
+    background:#004953;
+    height:80vh;
+    width:100%;
+    margin-block:8vh;
+    margin-inline:5vw;
+    padding-inline:2vw;
+    color:#fff;
+}
+#infothird h1{
+    padding-top:.5em;
+    padding-bottom:1em;
+    line-height:1.5em;
+    font-size:1.5em;
+    background:#004953;
+    font-family:'Permanent Marker'
+}
+#infothird ul h2{
+    font-size:1em;
+    font-family:sans-serif;
+}
+#infothird ul li{
+    list-style:circle;
+    font-size:.75em;
+    margin-block:1vh;
+    font-family:'Permanent Marker'
+}
+#infothird p{
+    font-size:.9em;
+    font-family:'Permanent Marker'
+}
+em{text-decoration:underline;}
+
+#datespan,#timespan{
+    font-family:monospace;
+    font-weight:bold;
+    font-size:1.5em;
+    border-bottom:white 2px solid;
+    margin-inline:1vw;
+}
+#mrbigglespic{
+    height:65vh;
+    width:auto;
+    border:4px solid darkblue;
+    margin-top:25vh;
+    margin-left:30%;
+}
+.bubble{
+    height:50px;
+    width:50px;
+    border:2px blue solid;
+    border-radius:25%;
+    background:blue;
+    position:absolute;
+    top:22vh;
+    right:32vw;
+}
+.bubble2{
+    height:50px;
+    width:50px;
+    border:2px blue solid;
+    border-radius:25%;
+    background:blue;
+    position:absolute;
+    top:10vh;
+    right:15vw;
+}
+.bubble3{
+    height:50px;
+    width:50px;
+    border:2px blue solid;
+    border-radius:25%;
+    background:blue;
+    position:absolute;
+    top:10vh;
+    right:25vw;
+}
+.bubble4{
+    height:190px;
+    width:150px;
+    border:2px blue solid;
+    border-radius:25%;
+    background:url('dogcake1.jpeg') center;
+    position:absolute;
+    top:20vh;
+    right:10vw;
+}
+
+#formstuff{
+    border-left:2px solid red;
+    margin-left:5vw;
+    padding-left:2vw;
+    margin-top:-5vh;
+}
+#formstuff h2{
+    font-size:1.5em;
+    font-family:'Permanent Marker'
+}
+#formstuff ul li{
+    margin-block:1vh;
 }
